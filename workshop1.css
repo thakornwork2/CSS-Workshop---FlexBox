@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+
+body {
+  margin: 0;
+  color: #172033;
+  background: #f5f7fb;
+}
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  min-height: 72px;
+  padding: 0 28px;
+  background: white;
+  border-bottom: 1px solid #b9bec5;
+}
+.brand {
+  color: #306afc;
+  font-size: 20px;
+  font-weight: 800;
+  text-decoration: none;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.nav a,
+.cta {
+  color: #363e4c;
+  font-size: 14px;
+  text-decoration: none;
+}
+.cta {
+  padding: 9px 16px;
+  color: white;
+  background: #306afc;
+  border-radius: 6px;
+  font-weight: 700;
+}

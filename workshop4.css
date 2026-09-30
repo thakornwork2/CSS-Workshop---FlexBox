@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 40px;
+  background: white;
+  color: #1a1f2c;
+}
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  max-width: 840px;
+  margin: 0 auto;
+}
+.card {
+  flex: 1 1 180px;
+  min-height: 160px;
+  padding: 20px;
+  background: #ffffff;
+  border: 1px solid #d9e0ea;
+  border-radius: 8px;
+}
+.card__eyebrow {
+  margin: 0 0 12px;
+  color: #15605a;
+  font-size: 12px;
+  font-weight: 800;
+}
+.card h3 {
+  margin: 0 0 8px;
+  font-size: 18px;
+}
+.card p:last-child {
+  margin: 0;
+  color: #445062;
+  line-height: 1.5;
+}
